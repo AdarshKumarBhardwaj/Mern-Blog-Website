@@ -1,9 +1,9 @@
 {
   "name": "blog_mern",
-  "type": "module",
   "version": "1.0.0",
   "description": "This is a Blog app",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
