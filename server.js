@@ -6,8 +6,8 @@ const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 
 //for deployment
-import path from "path";
-import { fileURLToPath } from "url";
+const path =require("path");
+const {fileURLToPath} = require('url')
 
 //env config
 dotenv.config();
